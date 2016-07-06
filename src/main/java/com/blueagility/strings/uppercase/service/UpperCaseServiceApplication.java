@@ -1,4 +1,4 @@
-package com.blueagility.example.strings.uppercase.service;
+package com.blueagility.strings.uppercase.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

@@ -1,5 +1,7 @@
-import com.blueagility.example.strings.uppercase.service.UpperCaseService;
-import com.blueagility.example.strings.uppercase.service.UpperCaseServiceApplication;
+package com.blueagility.strings.uppercase.service;
+
+import com.blueagility.strings.uppercase.service.UpperCaseService;
+import com.blueagility.strings.uppercase.service.UpperCaseServiceApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

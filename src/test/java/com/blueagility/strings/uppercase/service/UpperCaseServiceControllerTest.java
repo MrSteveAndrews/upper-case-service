@@ -1,4 +1,6 @@
-import com.blueagility.example.strings.uppercase.service.UpperCaseServiceApplication;
+package com.blueagility.strings.uppercase.service;
+
+import com.blueagility.strings.uppercase.service.UpperCaseServiceApplication;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;

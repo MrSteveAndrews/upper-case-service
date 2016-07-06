@@ -1,4 +1,4 @@
-package com.blueagility.example.strings.uppercase.service;
+package com.blueagility.strings.uppercase.service;
 
 import org.springframework.stereotype.Component;
 
