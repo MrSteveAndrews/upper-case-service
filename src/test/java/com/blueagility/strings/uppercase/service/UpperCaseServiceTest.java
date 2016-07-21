@@ -1,7 +1,5 @@
 package com.blueagility.strings.uppercase.service;
 
-import com.blueagility.strings.uppercase.service.UpperCaseService;
-import com.blueagility.strings.uppercase.service.UpperCaseServiceApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,5 +48,5 @@ public class UpperCaseServiceTest {
         String output = upperCaseService.upperCase("abc123");
         assertEquals("ABC123", output);
     }
-
 }
+

@@ -52,5 +52,6 @@ public class UpperCaseServiceControllerTest {
                 .andExpect(content().string(equalTo("ABC")));
     }
 
-
 }
+
+
