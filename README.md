@@ -13,3 +13,13 @@ To run the image:
 
 * Run in detached mode with -d
 * Bind container port 8080 to host port 9090 with -p 9090:8080
+
+Smoke test the REST service in your favorite browser:
+
+     http://localhost:9090/upperCase/{value}
+
+Examples:
+
+     http://localhost:9090/upperCase/abcdef
+     http://localhost:9090/upperCase/DE3h839d4hd238ih
+
