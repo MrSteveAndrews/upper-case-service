@@ -40,14 +40,14 @@ public class UpperCaseServiceControllerTest {
 
     @Test
     public void upper_case_abc() throws Exception {
-        mvc.perform(get("/upperCase/abc").accept(MediaType.ALL_VALUE))
+        mvc.perform(get("/abc").accept(MediaType.ALL_VALUE))
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("ABC")));
     }
 
     @Test
     public void upper_case_ABC() throws Exception {
-        mvc.perform(get("/upperCase/ABC").accept(MediaType.ALL_VALUE))
+        mvc.perform(get("/ABC").accept(MediaType.ALL_VALUE))
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("ABC")));
     }

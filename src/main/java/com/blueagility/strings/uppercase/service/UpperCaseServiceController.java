@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class UpperCaseServiceController {
 
-    private static final String UPPERCASE = "/upperCase/{value}";
+    private static final String UPPERCASE = "/{value}";
 
     @Autowired
     private UpperCaseService upperCaseService;
 
     @RequestMapping(method= RequestMethod.GET, value = UPPERCASE)
-    public String upperCase(@PathVariable String value) {
+    public String uppercase(@PathVariable String value) {
         return upperCaseService.upperCase(value);
     }
 

@@ -16,10 +16,10 @@ To run the image:
 
 Smoke test the REST service in your favorite browser:
 
-     http://localhost:9090/upperCase/{value}
+     http://localhost:9090/uppercase-service/{value}
 
 Examples:
 
-     http://localhost:9090/upperCase/abcdef
-     http://localhost:9090/upperCase/DE3h839d4hd238ih
+     http://localhost:9090/uppercase-service/abcdef
+     http://localhost:9090/uppercase-service/DE3h839d4hd238ih
 
