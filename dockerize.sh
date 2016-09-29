@@ -4,7 +4,7 @@
 echo docker build -t blueagility/uppercase-service:$1 .
 docker build -t blueagility/uppercase-service:$1 .
 echo docker tag -f blueagility/uppercase-service:$1 blueagility/uppercase-service:at
-docker tag blueagility/uppercase-service:$1 blueagility/uppercase-service:at
+docker tag -f blueagility/uppercase-service:$1 blueagility/uppercase-service:at
 
 # Push the image to DockerHub
 echo docker login -u $2 -p $3
